@@ -35,10 +35,14 @@ body {
 }
 
 .nadpis {
-    margin-top: 50px;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
-.row-ou {
-    max-width: 80%;
+.row {
+    padding-bottom: 30px;
+}
+.paticka {
+    display: flex;
+    justify-content: center;
 }
