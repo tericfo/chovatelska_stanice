@@ -47,3 +47,33 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.haha {
+    color: rgb(255, 0, 170);
+    margin-top: 50px;
+}
+
+.banner {
+    background-image: url(../images/cici.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* pokryje celý banner */
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.cau {
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+}
+
+.ahoj {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
