@@ -18,6 +18,8 @@ body {
     color: white;
     padding: 9px;
     border-radius: 6px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 .tlacitko:hover {
@@ -50,23 +52,22 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
 }
 
 .cau {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
     color: rgb(255, 0, 170);
-    display: flex;
-    justify-content: center;
-    padding-top: 270px;
 }
 
 .ahoj {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     color: rgb(255, 0, 170);
-    display: flex;
-    justify-content: center;
 }
 
 .banner::before {
