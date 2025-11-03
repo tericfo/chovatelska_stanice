@@ -132,6 +132,38 @@ body {
     padding-bottom: 20px;
 }
 
+.cena i {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.cena {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cena p {
+    border: solid #FF00AA 2px;
+    padding: 10px ;
+    border-radius: 5px;
+}
+
+.karticka {
+    text-align: center;
+    border: solid #FF00AA 2px;
+    padding: 5px ;
+    border-radius: 5px;
+}
+
+.nadpisek {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 @media (max-width: 768px) {
     .auto {
         font-size: 60px;
