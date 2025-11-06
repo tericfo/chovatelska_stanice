@@ -8,10 +8,6 @@ body {
     font-family: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.card {
-    margin-top: 50px;
-}
-
 .tlacitko {
     background: #ff00aa;
     text-decoration: none;
@@ -29,16 +25,13 @@ body {
 
 .nadpis {
     margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-.row {
-    padding-bottom: 30px;
+    margin-top: 50px;
 }
 
 .paticka {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .haha {
@@ -57,7 +50,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;     
+    position: relative;
+    margin-bottom: 75px;     
 }
 
 .cau {
@@ -90,6 +84,7 @@ body {
     height: 670px;
     padding-left: 10%; 
     padding-top: 15%;
+    margin-bottom: 75px;
 }
 
 .bannirek::before {
@@ -101,6 +96,29 @@ body {
 
 .bannirek > * {
   position: relative;
+  z-index: 1;
+}
+
+.bannerek {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 670px;
+    padding-left: 10%; 
+    padding-top: 30%;
+}
+
+.bannerek::before {
+    content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bannerek {
+    position: relative;
   z-index: 1;
 }
 
@@ -118,6 +136,7 @@ body {
 
 .textik {
     color: rgb(255, 0, 170);
+    padding: 50px 0;
 }
 
 .texticek {
@@ -137,12 +156,29 @@ body {
     padding-top: 10px;
 }
 
-.cena {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.jo i {
+    padding-left: 5px;
+    padding-top: 10px;
 }
+
+.jo a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #FF00AA;
+}
+
+.jo p {
+    padding-bottom: 20px;
+}
+
+.pozadi {
+    background-color: #fff0fb;
+    padding: 20px;
+}
+
+.cena {
+    padding-bottom: 40px;
+ }
 
 .cena p {
     border: solid #FF00AA 2px;
@@ -150,19 +186,27 @@ body {
     border-radius: 5px;
 }
 
-.karticka {
-    text-align: center;
-    border: solid #FF00AA 2px;
-    padding: 5px ;
-    border-radius: 5px;
+.karticka h4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.nadpisek {
+.karticka p {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    justify-content: flex-start;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(255, 0, 170, 0.3);
+  color: black;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 170, 0.6);
+}
+
 
 @media (max-width: 768px) {
     .auto {
@@ -171,5 +215,13 @@ body {
 
     .kolo {
         font-size: 45px;
+    }
+}
+
+@media (min-width: 768px) {
+     .cena {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
     }
 }
