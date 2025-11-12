@@ -18,7 +18,24 @@ body {
     display: inline-block;
 }
 
+.tlacitecko {
+     background: #ff00aa;
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size: 22px;
+}
+
 .tlacitko:hover {
+    background: rgb(255, 193, 234);
+    color: rgb(255, 0, 170);
+}
+
+.tlacitecko:hover {
     background: rgb(255, 193, 234);
     color: rgb(255, 0, 170);
 }
@@ -107,8 +124,8 @@ body {
     position: relative;
     height: 670px;
     padding-left: 10%; 
-    padding-top: 25%;
-    margin-bottom: 50px;
+    padding-top: 20%;
+    margin-bottom: 80px;
 }
 
 .bannerek::before {
@@ -187,6 +204,20 @@ body {
     border-radius: 5px;
 }
 
+.ramecek {
+    border: solid #FF00AA 2px;
+    padding: 10px ;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+
+.nevimmm {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .karticka h4 {
     display: flex;
     justify-content: flex-start;
@@ -218,6 +249,56 @@ body {
     font-size: 50px;
 }
 
+.napdisecek {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.texticecek {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.texticecek1 {
+    margin-top: 20px;
+}
+
+.podnadpisek {
+    padding-bottom: 10px;
+}
+
+.podnadpisecek {
+    margin-top: 30px;
+}
+
+.anone {
+    border: solid #00ff04 5px;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.anone i {
+    color: #00b003;
+}
+
+.neano {
+    border: solid #ff2626 5px;
+    padding: 10px ;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.neano i {
+    color: #b60000;
+}
+
 @media (max-width: 768px) {
     .auto {
         font-size: 60px;
@@ -225,6 +306,22 @@ body {
 
     .kolo {
         font-size: 45px;
+    }
+
+    .nehet {
+        font-size: 45px;
+    }
+
+    .ruka {
+        font-size: 30px;
+    }
+
+    .anone {
+        margin-bottom: 25px;
+    }
+
+    .neano {
+        margin-top: 25px;
     }
 }
 
