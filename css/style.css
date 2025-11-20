@@ -71,6 +71,21 @@ body {
     margin-bottom: 75px;     
 }
 
+.banner-zvirata {
+        background-image: url(../images/cici.jpg);
+}
+.banner-homepage {
+    background-image: url(../images/banner-homepage.jpg);
+}
+
+.banner-nadpis {
+    font-size: 30px;
+}
+.banner-text {
+    font-size: 45px;
+    font-weight: 700;
+}
+
 .cau {
     font-size: 30px;
 }
@@ -299,6 +314,78 @@ body {
     color: #b60000;
 }
 
+.banner-homepage {
+    background-image: url(../images/kocinecka.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;    
+}
+
+.banner-homepage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.banner-homepage > * {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-homepage-text {
+   font-size: 30px;
+}
+
+.banner-homepage-nadpis {
+   font-size: 50px;
+   font-weight: 800;
+}
+
+.container-homepage {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0px solid;
+    padding: 20px;
+}
+
+.text-o-nas {
+    font-size: 18px;
+    color: #FF00AA;
+    margin-top: 50px;
+}
+
+.homepage-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(255, 193, 234);
+    border: 5px solid #ff00aa;
+}
+
+.card-nadpis {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-podnadpis {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.card-text {
+    font-weight: 400;
+}
+
 @media (max-width: 768px) {
     .auto {
         font-size: 60px;
@@ -323,6 +410,14 @@ body {
     .neano {
         margin-top: 25px;
     }
+
+    .banner-homepage-text {
+        font-size: 20px;
+    }
+
+    .banner-homepage-nadpis {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -330,5 +425,9 @@ body {
        display: flex;
        justify-content: center;
        gap: 20px;
+    }
+
+    .container-homepage {
+        margin-top: 200px;
     }
 }
