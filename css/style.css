@@ -364,8 +364,6 @@ body {
 .homepage-card {
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
     background-color: rgb(255, 193, 234);
     border: 5px solid #ff00aa;
 }
@@ -384,6 +382,23 @@ body {
 
 .card-text {
     font-weight: 400;
+}
+
+.odznaky p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.odznaky {
+    margin-bottom: 30px;
+}
+
+.reference {
+    background-color:rgb(255, 193, 234);
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
