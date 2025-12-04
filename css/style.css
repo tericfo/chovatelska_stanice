@@ -390,15 +390,34 @@ body {
 }
 
 .odznaky {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .reference {
     background-color:rgb(255, 193, 234);
-    padding-left: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 50px;
+}
+
+.dotazy {
+    margin-bottom: 50px;
+}
+
+.kontakty a {
+    text-decoration: none;
+    color: #FF00AA;
+}
+
+.kontakty {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.nadpis_kontakty {
+    margin-bottom: 60px;
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
