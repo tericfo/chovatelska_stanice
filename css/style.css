@@ -401,7 +401,7 @@ body {
 }
 
 .dotazy {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .kontakty a {
@@ -410,14 +410,67 @@ body {
 }
 
 .kontakty {
-    display: flex;
-    justify-content: space-around;
     font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nadpis_kontakty {
     margin-bottom: 60px;
     font-weight: 700;
+}
+
+.banner-kontakty {
+    background-image: url(../images/banner-kontakty.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner-kontakty::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.banner-kontakty > * {
+  position: relative;
+  z-index: 1;
+}
+
+.nadpis_banner_kontakty {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.podnadpis_banner_kontakty {
+    font-size: 40px;
+}
+
+.sloupce_u_kontaktu p {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.sloupce_u_kontaktu h3 {
+    margin-top: 75px;
+}
+
+.sloupce_u_kontaktu a {
+    text-decoration: none;
+    color: #FF00AA;
+}
+
+.lokace img {
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -452,6 +505,7 @@ body {
     .banner-homepage-nadpis {
         font-size: 30px;
     }
+     
 }
 
 @media (min-width: 768px) {
@@ -463,5 +517,12 @@ body {
 
     .container-homepage {
         margin-top: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .sloupce_u_kontaktu img {
+        height: 150px;
     }
 }
