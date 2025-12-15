@@ -357,8 +357,7 @@ body {
 
 .text-o-nas {
     font-size: 18px;
-    color: #FF00AA;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .homepage-card {
@@ -385,15 +384,28 @@ body {
 }
 
 .odznaky p {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
 }
 
 .odznaky {
     margin-bottom: 50px;
 }
 
-.reference {
+.jinaktohle {
+    padding-top: 25px;
+}
+
+.takyjinak {
+    padding-top: 15px;
+}
+
+.spolu {
+    display: flex;
+    justify-content: center;
+}
+
+.kontejnerek {
     background-color:rgb(255, 193, 234);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -471,6 +483,16 @@ body {
 
 .lokace img {
     margin-top: 40px;
+}
+
+.nadpis_homepage {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.vrsek_stranky {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
