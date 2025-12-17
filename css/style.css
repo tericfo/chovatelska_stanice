@@ -467,13 +467,18 @@ body {
     font-size: 40px;
 }
 
-.sloupce_u_kontaktu p {
-    margin-bottom: 30px;
-    margin-top: 20px;
+.sloupce_u_kontaktu .marginek {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sloupce_u_kontaktu .paddincek {
+    margin-top: 30px;
 }
 
 .sloupce_u_kontaktu h3 {
     margin-top: 75px;
+    margin-bottom: 25px;
 }
 
 .sloupce_u_kontaktu a {
@@ -481,8 +486,16 @@ body {
     color: #FF00AA;
 }
 
+.sloupce_u_kontaktu b {
+    margin-top: 30px;
+}
+
+.sloupce_u_kontaktu {
+    margin-bottom: 50px;
+}
+
 .lokace img {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .nadpis_homepage {
@@ -493,6 +506,20 @@ body {
 .vrsek_stranky {
     display: flex;
     justify-content: center;
+}
+
+.butony a {
+    font-size: 20px;
+}
+
+.butony {
+    text-align: center;
+}
+
+.pozadi_ruzovy {
+    background-color: #ffdef4;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -535,6 +562,12 @@ body {
        display: flex;
        justify-content: center;
        gap: 20px;
+    }
+
+    .butony {
+        display: flex;
+       justify-content: center;
+       gap: 100px;
     }
 
     .container-homepage {
